@@ -7,7 +7,7 @@ st.header('DONT INPUT ANYTHING ')
 st.header('due to memory restrictions of streamlit the app crashes once it starts processing the inputs')
 
 #semantic similarity model 
-model=SentenceTransformer('stsb-roberta-large')
+model=SentenceTransformer('all-MiniLM-L6-v2')
 
 #input 
 sentence1=st.text_input("input1:")
