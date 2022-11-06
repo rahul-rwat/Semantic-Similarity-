@@ -3,11 +3,11 @@ import numpy as np
 import streamlit as st
 
 #Header
-st.header('Enter input1 -> Press Enter')
-st.header('Enter input2 -> Press Enter')
+st.header('DONT INPUT ANYTHING ')
+st.header('due to memory restrictions of streamlit the app crashes once it starts processing the inputs')
 
 #semantic similarity model 
-model=SentenceTransformer('stsb-roberta-large')
+model=SentenceTransformer('stsb-roberta-large',max_seq_length=64)
 
 #input 
 sentence1=st.text_input("input1:")
