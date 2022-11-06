@@ -3,8 +3,8 @@ import numpy as np
 import streamlit as st
 
 #Header
-st.header('DONT INPUT ANYTHING ')
-st.header('due to memory restrictions of streamlit the app crashes once it starts processing the inputs')
+st.header('Semantic Texual Similarity Model  ')
+st.header('use the input boxes to insert the text and press enter')
 
 #semantic similarity model 
 model=SentenceTransformer('all-MiniLM-L6-v2')
