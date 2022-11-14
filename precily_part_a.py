@@ -6,7 +6,7 @@ model=SentenceTransformer('stsb-roberta-large')
 
 #input 
 sentence1=input("input1:")
-sentence2=input("input2:")
+sentence2=input("Input 2:")
 
 # compute similarity scores of two embeddings
 embedding1=model.encode(sentence1,convert_to_tensor=True)
